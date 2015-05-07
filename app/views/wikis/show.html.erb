@@ -1,3 +1,5 @@
-<%= params %>
 <h1><%= @wiki.title %></h1>
+
+ <%= link_to "Edit", edit_wiki_path(@wiki), class: 'btn btn-success' %>
+
 <p><%= @wiki.body %></p>

@@ -1,7 +1,7 @@
 <h1><%= @wiki.title %></h1>
 
 <% if policy(@wiki).edit? %>
- <%= link_to "Edit", edit_wiki_path(@wiki), class: 'btn btn-success' %>
+ <%= link_to "Edit Wiki", edit_wiki_path(@wiki), class: 'btn btn-success' %>
 <% end %>
 
  <% if policy(@wiki).destroy? %>      

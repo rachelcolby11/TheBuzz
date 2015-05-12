@@ -5,8 +5,11 @@
  </br>
    <script class='stripe-button' src="https://checkout.stripe.com/checkout.js" data-key="<%= @stripe_btn_data[:key] %>" data-amount=<%= @stripe_btn_data[:amount] %> data-description="<%= @stripe_btn_data[:description] %>" ></script>
  <% end %>
+
 <% else %>
-<h3>Downgrade Account</h3>
-<h5>Are you sure you want to lose premium acccess to Blocipedia? </h5>
-<%= link_to "Yes, downgrade my account", downgrade_path, class: 'btn btn-warning' %>
+<h2>Downgrade Account</h2>
+<h4><br>Are you sure you want to lose premium acccess to Blocipedia? <br><br>If you downgrade your account, your private wikis will become public.
+</h4>
+<br>
+<%= link_to "Yes, downgrade my account", downgrade_path, class: 'btn btn-warning', data: { confirm: 'Are you sure you want to downgrade and make all your wikis public?' } %>
 <% end %>

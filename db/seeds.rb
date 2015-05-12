@@ -25,7 +25,7 @@
      name:     'Admin User',
      email:    'admin@example.com',
      password: 'helloworld',
-     role:     'premium'
+     role:     'admin'
    )
    admin.skip_confirmation!
    admin.save!

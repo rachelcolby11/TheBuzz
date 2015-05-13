@@ -13,4 +13,8 @@ class UsersController < ApplicationController
     def user_params
       params.require(:user).permit(:name, :role)
     end 
+
+    def wiki_params(wiki)
+      params.require(:wiki).permit(:private)
+    end  
 end

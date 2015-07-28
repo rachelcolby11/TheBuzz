@@ -2,25 +2,32 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.container {
+.welcome-container {
+  border-radius: 15px;
   text-align: center;
   font-weight: bold;
+  background-color: rgb(61, 196, 255);
+  padding: 20px 40px 35px 40px;
 }
 
-.hello {
-  background-color: #CCFFF;
-} 
-
-h1 {
+h1.welcome-header {
   color: #6600CC;
   font-family: Impact, Charcoal, sans-serif;
   font-weight: bold;
   font-size: 120px;
 }
 
-h2 {
+h2.slogan {
   color: #6600CC;
   font-family: Impact, Charcoal, sans-serif;
   font-weight: bold;
-  font-size: 90px;
+  font-size: 50px;
+}
+
+.about {
+  text-align: center;
+}
+
+.text{
+  font-size: 20px;
 }

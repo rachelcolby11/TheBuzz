@@ -23,8 +23,29 @@
  
  .nav {
    margin-top: 5px;
+   background-color: yellow;
+   padding-right: 10px;
+ }
+
+ html {
+  height: 100%;
+  overflow: hidden;
  }
 
  body {
-  background-color: rgba(184, 229, 255, 1);
+  background-color: black;
+  height: 100%;
+  overflow: hidden;
+ }
+
+.container {
+  height: 100%;
+}
+
+.yellow-box {
+  background-color: yellow;
+  padding: 10px;
+  margin-top: 5px;
+  height: 100%;
+  overflow: scroll;
 }

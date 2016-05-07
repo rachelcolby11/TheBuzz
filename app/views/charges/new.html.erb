@@ -1,14 +1,14 @@
 <% unless current_user.premium? %> 
  <%= form_tag charges_path do %>
    <h1><strong>Upgrade to Premium!</strong></h1>
-   <h3> Join the growing ranks of Blocipedia's elite Premium members! With a Premium account, you'll be able to create your own private wikis, select collaborators, and collaborate on other private wikis. You'll also be the first to hear about special Blocipedia events near you! For a limited time, upgrade your account with a one-time payment of just $15!</h3>
+   <h3> Join the growing ranks of our elite Premium members! With a Premium account, you'll be able to create your own private wikis, select collaborators, and collaborate on other private wikis. You'll also be the first to hear about special events near you! For a limited time, upgrade your account with a one-time payment of just $15!</h3>
  </br>
    <script class='stripe-button' src="https://checkout.stripe.com/checkout.js" data-key="<%= @stripe_btn_data[:key] %>" data-amount=<%= @stripe_btn_data[:amount] %> data-description="<%= @stripe_btn_data[:description] %>" ></script>
  <% end %>
 
 <% else %>
 <h2>Downgrade Account</h2>
-<h4><br>Are you sure you want to lose premium acccess to Blocipedia? <br><br>If you downgrade your account, your private wikis will become public.
+<h4><br>Are you sure you want to lose premium acccess to The Buzz? <br><br>If you downgrade your account, your private wikis will become public.
 </h4>
 <br>
 <%= link_to "Yes, downgrade my account", downgrade_path, class: 'btn btn-warning', data: { confirm: 'Are you sure you want to downgrade and make all your wikis public?' } %>

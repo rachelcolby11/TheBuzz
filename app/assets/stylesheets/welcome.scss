@@ -3,25 +3,36 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .welcome-container {
-  border-radius: 15px;
   text-align: center;
   font-weight: bold;
-  background-color: rgb(61, 196, 255);
+  background-color: black;
   padding: 20px 40px 35px 40px;
+  height: 87%;
+  margin: 15px;
 }
 
 h1.welcome-header {
-  color: #6600CC;
+  color: yellow;
   font-family: Impact, Charcoal, sans-serif;
   font-weight: bold;
   font-size: 120px;
+  margin-top: 20%;
 }
 
 h2.slogan {
-  color: #6600CC;
-  font-family: Impact, Charcoal, sans-serif;
+  color: yellow;
+  font-family: Charcoal, sans-serif;
   font-weight: bold;
   font-size: 50px;
+  margin-top: auto;
+}
+
+.btn.btn-success.btn-lg.btn-block {
+  border-radius: 0;
+  color: black;
+  font-weight: bold;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .about {

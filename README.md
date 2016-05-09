@@ -5,8 +5,6 @@ The Buzz is a Ruby on Rails application that allows users to create wikis and co
 * The app is deployed on Heroku: http://thebuzzz.herokuapp.com
 * The source code is here on GitHub: https://github.com/rachelcolby11/TheBuzz
 
-This app was created as part of Bloc.io's Full Stack Web Development course.
-
 ## Setup and Configuration
 **Languages and Frameworks:** 
 Ruby on Rails and Bootstrap

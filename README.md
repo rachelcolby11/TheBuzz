@@ -1,9 +1,9 @@
-# [Blocipedia](https://blocipedia-rc.herokuapp.com/)
+# [The Buzz](http://thebuzzz.herokuapp.com)
 
-Blocipedia is a Ruby on Rails application that allows users to create wikis and collaborate on other wikis. Users can pay to upgrade their membership, allowing them to view and create private wikis. 
+The Buzz is a Ruby on Rails application that allows users to create wikis and collaborate on other wikis -- like a smaller, trendier version of Wikipedia. The Buzz lets users share knowledge about whatever is on their mind and read what everyone's buzzing about. Users can pay to upgrade their membership, allowing them to view and create private wikis. 
 
-* The app is deployed on Heroku: https://blocipedia-rc.herokuapp.com
-* The source code is here on GitHub: https://github.com/rachelcolby11/Blocipedia 
+* The app is deployed on Heroku: http://thebuzzz.herokuapp.com
+* The source code is here on GitHub: https://github.com/rachelcolby11/TheBuzz
 
 This app was created as part of Bloc.io's Full Stack Web Development course.
 
@@ -26,7 +26,7 @@ Ruby on Rails and Bootstrap
 * Environment variables were set using [Figaro] (https://github.com/laserlemon/figaro) and are stored in config/application.yml (ignored by git).
 * The config/application.example.yml file illustrates how environment variables should be stored.
 
-####**To run Blocipedia locally:**
+####**To run The Buzz locally:**
 * Clone the repository
 * Run `bundle install`
 * Create and migrate the SQLite database with `rake db:create` and `rake db:migrate`
